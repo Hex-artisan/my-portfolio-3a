@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="py-5 border-t border-gray-700">
+    <footer className="py-5 border-t border-gray-200 dark:border-gray-700">
       <div className="container mx-auto px-6">
         <div className="flex justify-between">
           {/* About your site */}
           <div>
-            <h2>Portfolio</h2>
-            <p>Cebu, City</p>
+            <h2 className="font-bold">Ian Faith Fernandez</h2>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Web Developer</p>
           </div>
           {/* Quick Links */}
           <div>
